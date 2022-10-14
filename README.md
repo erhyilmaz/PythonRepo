@@ -1,2 +1,2 @@
 # PythonRepo
-For learing Python programming language.
+For learning Python programming language.
