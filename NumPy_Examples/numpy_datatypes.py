@@ -106,6 +106,7 @@ if 0:
     print(arr)
     print('shape of array :', arr.shape)
 
+    # Reshape an Array
     arr = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12])
     print(arr)
     new_arr = arr.reshape(4, 3)
@@ -158,75 +159,122 @@ if 0:
     print(arr)
     print(arr.shape)
 
-# ----------------------------------
-# NumPy Array Iterating
-# ----------------------------------
+    # ----------------------------------
+    # NumPy Array Iterating
+    # ----------------------------------
 
-arr = np.array([1, 2, 3, 4, 5])
-for x in arr:
-    print(x)
+    arr = np.array([1, 2, 3, 4, 5])
+    for x in arr:
+        print(x)
 
-# Iterating 2-D Arrays
-arr = np.array([[1, 2, 3], [4, 5, 6]])
-for x in arr:
-    print(x)
+    # Iterating 2-D Arrays
+    arr = np.array([[1, 2, 3], [4, 5, 6]])
+    for x in arr:
+        print(x)
 
-for x in arr:
-    for y in x:
-        print(y)
+    for x in arr:
+        for y in x:
+            print(y)
 
-# Iterating 3-D Arrays
-arr = np.array([[[1, 2, 3], [4, 5, 6]],
-                [[7, 8, 9], [10, 11, 12]]])
-for x in arr:
-    print(x)
+    # Iterating 3-D Arrays
+    arr = np.array([[[1, 2, 3], [4, 5, 6]],
+                    [[7, 8, 9], [10, 11, 12]]])
+    for x in arr:
+        print(x)
 
-for x in arr:
-    for y in x:
-        for z in y:
-            print(z)
+    for x in arr:
+        for y in x:
+            for z in y:
+                print(z)
 
-# ----------------------------------------
-# Iterating Arrays Using nditer()
+    # ----------------------------------------
+    # Iterating Arrays Using nditer()
 
-# Iterating on Each Scalar Element
-arr = np.array([[[1, 2], [3, 4]],
-                [[5, 6], [7, 8]]])
-for x in np.nditer(arr):
-    print(x)
+    # Iterating on Each Scalar Element
+    arr = np.array([[[1, 2], [3, 4]],
+                    [[5, 6], [7, 8]]])
+    for x in np.nditer(arr):
+        print(x)
 
-# Iterating Array With Different Data Types
-# We can use op_dtypes argument and pass it the expected datatype to change the datatype of elements while iterating.
-# NumPy does not change the data type of the element in-place (where the element is in array)
-# so it needs some other space to perform this action, that extra space is called buffer,
-# and in order to enable it in nditer() we pass flags=['buffered'].
-arr = np.array([1, 2, 3])
-for x in np.nditer(arr, flags=['buffered'], op_dtypes=['S']):
-    print(x)
+    # Iterating Array With Different Data Types
+    # We can use op_dtypes argument and pass it the expected datatype to change the datatype of elements while iterating.
+    # NumPy does not change the data type of the element in-place (where the element is in array)
+    # so it needs some other space to perform this action, that extra space is called buffer,
+    # and in order to enable it in nditer() we pass flags=['buffered'].
+    arr = np.array([1, 2, 3])
+    for x in np.nditer(arr, flags=['buffered'], op_dtypes=['S']):
+        print(x)
 
-# Iterating With Different Step Size
-arr = np.array([[1, 2, 3, 4],
-                [5, 6, 7, 8]])
-for x in np.nditer(arr[:, ::2]):
-    print(x)
+    # Iterating With Different Step Size
+    arr = np.array([[1, 2, 3, 4],
+                    [5, 6, 7, 8]])
+    for x in np.nditer(arr[:, ::2]):
+        print(x)
 
-# Enumerated Iteration Using ndenumerate()
-# Enumeration means mentioning sequence number of somethings one by one.
-# Sometimes we require corresponding index of the element while iterating,
-# the ndenumerate() method can be used for those usecases.
-arr = np.array([1, 2, 3])
-for idx, x in np.ndenumerate(arr):
-    print(idx, x)
+    # Enumerated Iteration Using ndenumerate()
+    # Enumeration means mentioning sequence number of somethings one by one.
+    # Sometimes we require corresponding index of the element while iterating,
+    # the ndenumerate() method can be used for those usecases.
+    arr = np.array([1, 2, 3])
+    for idx, x in np.ndenumerate(arr):
+        print(idx, x)
 
-arr = np.array([[1, 2, 3, 4],
-                [5, 6, 7, 8]])
-for idx, x in np.ndenumerate(arr):
-    print(idx, x)
+    arr = np.array([[1, 2, 3, 4],
+                    [5, 6, 7, 8]])
+    for idx, x in np.ndenumerate(arr):
+        print(idx, x)
 
+    # ---------------------------------------------
+    # Splitting NumPy Arrays:
+    # - array_split()
+    # - hsplit() [opposite of hstack()]
+    # - vsplit() [opposite of vstack()]
+    # - dsplit() [opposite of dstack()]
+    # ---------------------------------------------
+    # array_split() method is used for splitting arrays,
+    # we pass it the array we want to split and the number of splits.
+    # arr = np.array([1, 2, 3, 4, 5, 6])
+    # arr = np.array([[1, 2], [3, 4], [5, 6], [7, 8], [9, 10], [11, 12]])
+    arr = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9], [10, 11, 12], [13, 14, 15], [16, 17, 18]])
+    new_arr = np.array_split(arr, 3)
+    # new_arr = np.array_split(arr, 3, axis=1)
+    print(new_arr[0])
+    print(new_arr[1])
+    print(new_arr[2])
 
 # ---------------------------------------------
-# Splitting NumPy Arrays
+# Searching Arrays: search an array for a certain value, and return the indexes that get a match.
+# - where()
+# - searchsorted()
 # ---------------------------------------------
+#
+
+arr = np.array([1, 2, 3, 4, 5, 4, 4])
+x = np.where(arr == 4)  # will return a tuple
+print(x)
+
+arr = np.array([1, 2, 3, 4, 5, 6, 7, 8])
+x = np.where(arr % 2 == 0)
+# x = np.where(arr % 2 == 1)
+print(x)
+
+# searchsorted() which performs a binary search in the array,
+# and returns the index where the specified value would be inserted to maintain the search order.
+# The searchsorted() method is assumed to be used on sorted arrays.
+# By default the left most index is returned,
+# but we can give side='right' to return the right most index instead.
+arr = np.array([6, 7, 8, 9])
+# x = np.searchsorted(arr, 7) # default 'left' sided search
+# x = np.searchsorted(arr, 7, side='left')
+x = np.searchsorted(arr, 7, side='right')
+print(x)
+
+# Search multiple values
+arr = np.array([1, 3, 5, 7])
+x = np.searchsorted(arr, [2, 4, 6])  # Find the indexes where the values 2, 4, and 6 should be inserted
+print(x)
+
+
 
 
 
