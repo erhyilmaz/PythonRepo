@@ -106,8 +106,6 @@ b, a = signal.iirdesign(wp, ws, gpass, gstop, ftype='ellip', output='ba')
 print(f'Numerator (b) Coefficients {len(b)} : {b}')
 print(f'Denominator (a) Coefficients {len(a)} : {a}')
 
-w, h = signal.freqz(b, a)
-
 # Call mfreqz() to plot the magnitude and phase response
 mfreqz(b, a, Fsamp)
 
