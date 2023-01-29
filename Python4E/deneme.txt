@@ -1,0 +1,8 @@
+Hi,
+This is a test file where this file will be used for learning Python syntax.
+
+Thanks.
+
+This is a file !
+File .
+File
