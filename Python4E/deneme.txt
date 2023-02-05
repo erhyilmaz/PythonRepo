@@ -6,3 +6,12 @@ Thanks.
 This is a file !
 File .
 File
+
+Space pollution, also known as space debris, is any man-made object in space that no longer serves a useful purpose.
+This can include old satellites, rocket stages, and fragments from collisions or explosions.
+There is growing concern about space pollution because it can pose a threat to functional satellites and spacecraft.
+When debris is traveling at high speeds, even a small piece can cause significant damage.
+In addition, the increasing amount of debris in space makes it more difficult and costly to launch new satellites
+and perform other space-related activities. Some steps that are being taken to address the problem of
+space pollution include the development of new technologies to track and remove debris, and the implementation
+of guidelines to minimize the creation of new debris.
