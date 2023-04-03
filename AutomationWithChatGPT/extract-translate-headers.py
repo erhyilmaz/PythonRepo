@@ -4,6 +4,7 @@ import googletrans
 
 # Get html content from web page
 url = 'https://www.techworld-with-nana.com/post/a-guide-of-how-to-get-started-in-it-in-2023-top-it-career-paths'
+# url = 'https://www.linkedin.com/in/erhany/'
 page = requests.get(url)
 
 # Parse the page content
