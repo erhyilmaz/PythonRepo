@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ef6282a1-765d-41b4-a858-32cf89b843dd" name="Changes" comment="List comprehension and Pandan Librbary examples (with Miuul)">
+      <change afterPath="$PROJECT_DIR$/DSP/FFT/fft.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSP/forecasting_nonstationary_time_series.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSP/gradient_decent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cv2/exam_scores.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cv2/exam_scores_dataframe.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cv2/grades.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cv2/pandas_ex.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/csv-editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="e3f10b38-c255-465e-8c8a-84fc28ce69aa" />
+        <option name="url" value="https://github.com/erhyilmaz/PythonRepo.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2H5Yf15nTjqLoWify1srp4SeoXf" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Python.fft.executor": "Debug",
+    "Python.fft_data.executor": "Run",
+    "Python.forecasting_nonstationary_time_series.executor": "Run",
+    "Python.gradient_decent.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ToolWindowGit.ShowToolbar": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/erhyilmaz/work/learning/PythonProgramming/PythonRepo/DSP/FFT/fft.py",
+    "run.code.analysis.last.selected.profile": "aDefault",
+    "settings.editor.selected.configurable": "advanced.settings"
+  }
+}]]></component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="PythonRepo" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="PythonRepo" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Python_DataAnalysis/Pandas" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/PythonSeleniumCourse/course_examples/files" />
+      <recent name="$PROJECT_DIR$/PythonSeleniumCourse/course_examples/Libraries_and_Modules" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="exam_scores_dataframe" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonRepo" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cv2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cv2/exam_scores_dataframe.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fft" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.10" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DSP/FFT" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DSP/FFT/fft.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pandas_example" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonRepo" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_DataAnalysis/Pandas" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_DataAnalysis/Pandas/pandas_example.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.exam_scores_dataframe" />
+        <item itemvalue="Python.pandas_example" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-7a29c1521ef0-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.11799.298" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ef6282a1-765d-41b4-a858-32cf89b843dd" name="Changes" comment="" />
+      <created>1667576510453</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667576510453</updated>
+    </task>
+    <task id="LOCAL-00001" summary="numpy">
+      <created>1667577030245</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667577030245</updated>
+    </task>
+    <task id="LOCAL-00002" summary="numpy">
+      <created>1667584273014</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667584273014</updated>
+    </task>
+    <task id="LOCAL-00003" summary="dictionary examples">
+      <created>1667682717538</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667682717538</updated>
+    </task>
+    <task id="LOCAL-00004" summary="libraries">
+      <created>1667684373584</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667684373584</updated>
+    </task>
+    <task id="LOCAL-00005" summary="libraries">
+      <created>1667684678897</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667684678897</updated>
+    </task>
+    <task id="LOCAL-00006" summary="NumPy related adds">
+      <created>1667989397075</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1667989397075</updated>
+    </task>
+    <task id="LOCAL-00007" summary="- NumPy, SciPy related updates.&#10;- Windowing and IIR filter generation files">
+      <created>1671134636376</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1671134636376</updated>
+    </task>
+    <task id="LOCAL-00008" summary="- NumPy, SciPy related updates.&#10;- Windowing and IIR filter generation files">
+      <created>1671134655902</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1671134655902</updated>
+    </task>
+    <task id="LOCAL-00009" summary="- NumPy, SciPy related updates.&#10;- Windowing and IIR filter generation files">
+      <created>1673796255875</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1673796255875</updated>
+    </task>
+    <task id="LOCAL-00010" summary="- cv2 example: MediaPipe library for the pose points: https://google.github.io/mediapipe/solutions/pose">
+      <created>1673822733485</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1673822733485</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Python for Everybody: Dictionary examples">
+      <created>1675029164148</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1675029164148</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Python for Everybody: Tuples and Regular Expressions examples">
+      <created>1675625138894</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1675625138894</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Python for Everybody: Networking related">
+      <created>1676914621048</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1676914621048</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Python Automation with ChatGPT (Techworld with Nana):&#10;- First write a python script to prompt ChatGPT with a request to generate a python script and save that script to local folder&#10;- Ask ChatGPT with prompt: &quot;extract all html headers from a web page, translate to French and save result into an html file&quot; &#10;- Clean the ChatGPT Python code and Call the generated file with a sample URL.">
+      <created>1678345400149</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1678345400149</updated>
+    </task>
+    <task id="LOCAL-00015" summary="'''&#10;Python script which goes through files in Downloads folder, check their dates and if they are older than 10 days, move them to folder called to_delete&#10;'''">
+      <created>1678370530428</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1678370530428</updated>
+    </task>
+    <task id="LOCAL-00016" summary="'''&#10;File open/close related methods. JSON, CSV files etc related trials&#10;'''">
+      <created>1680507845363</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1680507845363</updated>
+    </task>
+    <task id="LOCAL-00017" summary="'''&#10;File open/close related methods. JSON, CSV files etc related trials&#10;'''">
+      <option name="closed" value="true" />
+      <created>1689239984516</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1689239984516</updated>
+    </task>
+    <task id="LOCAL-00018" summary="'''&#10;File open/close related methods. JSON, CSV files etc related trials&#10;'''">
+      <option name="closed" value="true" />
+      <created>1689240393931</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1689240393931</updated>
+    </task>
+    <task id="LOCAL-00019" summary="'''&#10;File open/close related methods. JSON, CSV files etc related trials&#10;'''">
+      <option name="closed" value="true" />
+      <created>1689240569246</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1689240569246</updated>
+    </task>
+    <task id="LOCAL-00020" summary="'''&#10;File open/close related methods. JSON, CSV files etc related trials&#10;'''">
+      <option name="closed" value="true" />
+      <created>1693142042951</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1693142042951</updated>
+    </task>
+    <task id="LOCAL-00021" summary="List comprehension and Pandan Librbary examples (with Miuul)">
+      <option name="closed" value="true" />
+      <created>1695039790965</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1695039790966</updated>
+    </task>
+    <task id="LOCAL-00022" summary="List comprehension and Pandan Librbary examples (with Miuul)">
+      <option name="closed" value="true" />
+      <created>1695065547774</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1695065547774</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="executable:docker" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="929d2957-f12e-4eb7-ba74-98c5f6e3b006" value="TOOL_WINDOW" />
+        <entry key="cf81301f-e359-4273-bf33-0e043b4d9119" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="929d2957-f12e-4eb7-ba74-98c5f6e3b006">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:/home/erhyilmaz/work/learning/PythonProgramming/PythonRepo/Python3_DeepDive-Part1" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ID_WIDTH">
+                <map>
+                  <entry key="Table.Default.Author.ColumnIdWidth" value="108" />
+                  <entry key="Table.Default.Date.ColumnIdWidth" value="146" />
+                  <entry key="Table.Space.CommitStatus.ColumnIdWidth" value="15" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="cf81301f-e359-4273-bf33-0e043b4d9119">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="numpy" />
+    <MESSAGE value="dictionary examples" />
+    <MESSAGE value="libraries" />
+    <MESSAGE value="NumPy related adds" />
+    <MESSAGE value="- NumPy, SciPy related updates.&#10;- Windowing and IIR filter generation files&#10;&#10;-cv2 releated code" />
+    <MESSAGE value="- NumPy, SciPy related updates.&#10;- Windowing and IIR filter generation files&#10;- cv2 releated code" />
+    <MESSAGE value="- cv2 example: MediaPipe library for the pose points: https://google.github.io/mediapipe/solutions/pose" />
+    <MESSAGE value="Python for Everybody: Dictionary examples" />
+    <MESSAGE value="Python for Everybody: Tuples and Regular Expressions examples" />
+    <MESSAGE value="Python for Everybody: Networking related" />
+    <MESSAGE value="Python Automation with ChatGPT (Techworld with Nana):&#10;- First write a python script to prompt ChatGPT with a request to generate a python script and save that script to local folder&#10;- Ask ChatGPT with prompt: &quot;extract all html headers from a web page, translate to French and save result into an html file&quot; &#10;- Clean the ChatGPT Python code and Call the generated file with a sample URL." />
+    <MESSAGE value="'''&#10;Python script which goes through files in Downloads folder, check their dates and if they are older than 10 days, move them to folder called to_delete&#10;'''" />
+    <MESSAGE value="'''&#10;File open/close related methods. JSON, CSV files etc related trials&#10;'''" />
+    <MESSAGE value="List comprehension and Pandan Librbary examples (with Miuul)" />
+    <option name="LAST_COMMIT_MESSAGE" value="List comprehension and Pandan Librbary examples (with Miuul)" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
