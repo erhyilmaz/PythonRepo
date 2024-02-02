@@ -5,15 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef6282a1-765d-41b4-a858-32cf89b843dd" name="Changes" comment="List comprehension and Pandan Librbary examples (with Miuul)">
-      <change afterPath="$PROJECT_DIR$/DSP/FFT/fft.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSP/forecasting_nonstationary_time_series.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSP/gradient_decent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cv2/exam_scores.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cv2/exam_scores_dataframe.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cv2/grades.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cv2/pandas_ex.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/csv-editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Py100DaysOfCode_Course/ceasar_ciphering/art.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Py100DaysOfCode_Course/ceasar_ciphering/ceasar_ciphering.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Py100DaysOfCode_Course/hangman/hangman.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Py100DaysOfCode_Course/hangman/hangman_art.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Py100DaysOfCode_Course/hangman/hangman_words.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Py100DaysOfCode_Course/pwd_generator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Py100DaysOfCode_Course/rock_paper_scissors_game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_DataScience_and_ML_Course/Py-DS-ML-Bootcamp-master/02-Python-for-Data-Analysis-NumPy/01-NumPy Arrays.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Python_DataScience_and_ML_Course/Py-DS-ML-Bootcamp-master/02-Python-for-Data-Analysis-NumPy/01-NumPy Arrays.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_DataScience_and_ML_Course/Py-DS-ML-Bootcamp-master/02-Python-for-Data-Analysis-NumPy/04-Numpy Exercises.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Python_DataScience_and_ML_Course/Py-DS-ML-Bootcamp-master/02-Python-for-Data-Analysis-NumPy/04-Numpy Exercises.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,23 +68,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Python.fft.executor": "Debug",
-    "Python.fft_data.executor": "Run",
-    "Python.forecasting_nonstationary_time_series.executor": "Run",
-    "Python.gradient_decent.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ToolWindowGit.ShowToolbar": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/erhyilmaz/work/learning/PythonProgramming/PythonRepo/DSP/FFT/fft.py",
-    "run.code.analysis.last.selected.profile": "aDefault",
-    "settings.editor.selected.configurable": "advanced.settings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Python.camera_capture.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ceasar_ciphering.executor&quot;: &quot;Run&quot;,
+    &quot;Python.deneme.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fft.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.fft_data.executor&quot;: &quot;Run&quot;,
+    &quot;Python.forecasting_nonstationary_time_series.executor&quot;: &quot;Run&quot;,
+    &quot;Python.gradient_decent.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hangman.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pwd_generator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.rock_paper_scissors_game.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ToolWindowGit.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/erhyilmaz/work/learning/PythonProgramming/PythonRepo/DSP/FFT/fft.py&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
   }
-}]]></component>
+}</component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="PythonRepo" is-module-sdk="true">
@@ -97,11 +104,12 @@
       <recent name="$PROJECT_DIR$/Python_DataAnalysis/Pandas" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Py100DaysOfCode_Course/ceasar_ciphering" />
       <recent name="$PROJECT_DIR$/PythonSeleniumCourse/course_examples/files" />
       <recent name="$PROJECT_DIR$/PythonSeleniumCourse/course_examples/Libraries_and_Modules" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.fft">
     <configuration name="exam_scores_dataframe" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonRepo" />
       <option name="ENV_FILES" value="" />
@@ -179,7 +187,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-7a29c1521ef0-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.11799.298" />
+        <option value="bundled-python-sdk-50da183f06c8-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.13135.95" />
       </set>
     </attachedChunks>
   </component>
